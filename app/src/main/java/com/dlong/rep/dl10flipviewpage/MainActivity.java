@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initview();
+        //initDatas();
         initDatas2();
     }
 
@@ -39,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
         indicator = (CirclePageIndicator) findViewById(R.id.indicator);
     }
 
+    /**
+     * 使用自带默认样式
+     */
     private void initDatas() {
         dataList = new ArrayList<>();
         for (int i = 0; i < 22; i++) {
@@ -62,6 +66,9 @@ public class MainActivity extends AppCompatActivity {
         indicator.setViewPager(view_pager);
     }
 
+    /**
+     * 自定义样式
+     */
     private void initDatas2() {
         String[] from = new String[]{"txt", "img"};
         int[] to = new int[]{R.id.tv_text, R.id.iv_img};
