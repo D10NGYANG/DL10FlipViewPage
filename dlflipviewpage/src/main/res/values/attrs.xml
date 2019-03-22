@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <!-- 指示器是否居中显示 -->
+        <attr name="centered" format="boolean" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <!-- 当前页面指示器颜色 -->
+        <attr name="selectColor" format="color"/>
+        <!-- Color of the filled circles that represents pages. -->
+        <!-- 全部页面指示器颜色 -->
+        <attr name="pageColor" format="color"/>
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <!-- 指示器半径 -->
+        <attr name="radius" format="dimension"/>
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <!-- 指示器是否锁定位置 -->
+        <attr name="snap" format="boolean"/>
+        <!-- Color of the open circles. -->
+        <!-- 全部页面指示器空心圆边框颜色 -->
+        <attr name="strokeColor" format="color"/>
+        <!-- Width of the stroke used to draw the circles. -->
+        <!-- 全部页面指示器空心圆边框宽度 -->
+        <attr name="strokeWidth" format="dimension" />
+        <!-- View background -->
+        <!-- 页面指示器背景 -->
+        <attr name="android:background"/>
+    </declare-styleable>
+</resources>
