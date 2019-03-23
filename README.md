@@ -1,7 +1,7 @@
 # DL10FlipViewPage
 一个组合控件翻页式的GridView列表带可定制的圆形页面指示器
 
-说明链接：
+说明链接：https://blog.csdn.net/sinat_38184748/article/details/88744540
 
 # 效果图
 ![](img/翻页点击item.gif)
